@@ -1,0 +1,173 @@
+﻿
+h1.navbar-brand {
+    margin:0;
+}
+
+div.container-fluid {
+    display: block;
+    margin: 0;
+    padding:0;
+    width:100%;
+}
+
+#mainSlider {
+margin:0;
+}
+
+.btnSlider {
+    margin-top: 30px;
+    border: 2px solid ghostwhite;
+    border-radius: 15px;
+    background-color: grey;
+    color: ghostwhite;
+    padding: 10px;
+}
+
+    .btnSlider:hover {
+        background-color: silver;
+        color: black;
+    }
+
+    .btnSlider a {
+       text-decoration:none;
+       color:white;
+    }
+
+.navbar, .navbar-inverse, .navbar-static-top {
+    margin:0;
+}
+
+.slide-showing {
+    opacity:0.7;
+    max-height:600px;
+    margin:auto;
+}
+
+#about {
+    background-color:black;
+    padding:75px;
+}
+
+    #about h1 {
+        text-align: center;
+        color: ghostwhite;
+        font-family: Courier, monospace;
+    }
+
+    #about div div div p {
+        text-align: center;
+        text-decoration: underline;
+        font-size: 18px;
+        color: ghostwhite;
+        margin-top:50px;
+        font-family: FreeMono, monospace;
+    }
+
+#about div div div span img {
+    width:400px;
+    height:250px;
+    border: 5px dashed gray;
+    border-radius: 15px;
+}
+
+
+.divider-arrow {
+    text-align:center;
+}
+
+.divider-arrow i {
+    font-size:40px;
+    color:silver;
+    opacity:0.5;
+}
+
+    .divider-arrow i:hover {
+        font-size: 40px;
+        color: silver;
+        opacity: 1;
+    }
+
+
+.btnResume {
+    margin-top:30px;
+    border: 2px solid ghostwhite;
+    border-radius: 5px;
+    background-color: transparent;
+    color: ghostwhite;
+    padding:10px;
+}
+
+    .btnResume:hover {
+        background-color: ghostwhite;
+        color:black;
+    }
+
+
+
+/* Hoobys */
+.hobbys {
+    background-color:cornsilk;
+}
+
+.hobbyBlock {
+    margin-top:10px;
+}
+
+    .hobbyBlock div {
+        border: 4px dashed silver;
+        height: 400px;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+.searchUrl {
+text-decoration:none;
+color:black;
+}
+
+.searchUrl:hover {
+    text-decoration: none;
+    color: black;
+}
+
+    .searchUrl:after {
+        text-decoration: none;
+        color: black;
+    }
+
+.hobbyBlock div p {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .hobbyBlock div h2 {
+        text-align: center;
+    }
+
+#hobbys h1 {
+    text-align: center;
+    color: silver;
+    font-family: Courier, monospace;
+}
+
+.hobbyBlock div h4 {
+    text-align:center;
+    margin-top:30px;
+}
+
+.hobbyBlock div h4 span {
+    font-size: 12px;
+    padding:0;
+    margin:0;
+    color: gray;
+    text-decoration: underline;
+    font-family: Courier, monospace;
+}
+
+
+
+/* Footer */
+footer {
+    
+}

@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Кравчук Денис</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/Images/siteIcon.ico" />
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href="/css/all.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <h1 class="navbar-brand">Кравчук Денис</h1>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainmenu">
+                    <span class="sr-only">Скрити меню</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="mainmenu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/"><i class="fab fa-bitcoin fa-spin fa-md"></i> Головна сторінка</a></li>
+                    <li><a href="#about"><i class="fas fa-chess-queen fa-spin fa-md"></i> Про мене</a></li>
+                    <li><a href="#hobbys"><i class="fas fa-futbol fa-spin fa-md"></i> Захоплення</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="carousel slide" id="mainSlider">
+
+            <ol class="carousel-indicators">
+                <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#mainSlider" data-slide-to="1"></li>
+                <li data-target="#mainSlider" data-slide-to="2"></li>
+            </ol>
+            <!--C:\Users\Denis\Desktop\HTML&CSS\HW\MyWebSite\Images-->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="slide-showing" src="/Images/slide1.jpg" alt="slide 1" />
+                    <div class="carousel-caption">
+                        <h1>Профіль LinkedIn</h1>
+                        <p>
+                        
+                            <button class="btnSlider">
+                                <a href="https://linkedin.com/in/денис-кравчук-b683121b5/" target="_blank">Перейти на профіль LinkedIn</a>
+                            </button>
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="slide-showing" src="/Images/slide2.jpg" alt="slide 2" />
+                    <div class="carousel-caption">
+                        <h1>Портфоліо робіт</h1>
+                        <p>
+                            <button class="btnSlider">
+                                <a href="https://github.com/Denys209818?tab=repositories" target="_blank">Перейти на Github</a>
+                            </button>
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="slide-showing" src="/Images/slide3.jpg" alt="slide 3" />
+                    <div class="carousel-caption">
+                        <h1>Розробка веб-сайту</h1>
+                        <p>Процес розробки сайта портфоліо</p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#mainSlider" data-slide="prev" class="left carousel-control">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+
+            <a href="#mainSlider" data-slide="next" class="right carousel-control">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+
+        </div>
+    </div>
+
+    <br /><br /><br />
+    <p class="divider-arrow">
+        <a href="#about"><i class="fas fa-arrow-down"></i></a>
+    </p>
+    <br /><br /><br />
+
+    <hr />
+    <div id="about" class="container-fluid">
+        <h1>Про мене</h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-lg-8 col-xs-12 col-sm-12">
+                    <p>
+                        Мене звати Денис. Мені 16 років.
+                        з 13 років займаюся програмуванням. Вивчав технології
+                        HTML&CSS&Bootstrap&JS&JQuery. Наразі навчаюся в
+                        КА ШАГ. Також я ще навчаюся у Гощанській районній гімназії
+                        у 11-б класі з поглибленим вивченням математики.
+                    </p>
+                    <p>
+                        <button onclick="showResume()" class="btnResume" type="button">
+                            <span>
+                                Відкрити резюме
+                            </span>
+                        </button>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-4 hidden-sm hidden-xs">
+                    <span>
+                        <img src="/Images/photo.jpg" alt="Photo Author" />
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br /><br /><br />
+
+    <p class="divider-arrow">
+        <a href="#mainSlider"><i class="fas fa-arrow-up"></i></a>
+    </p>
+    <br /><br /><br />
+    <hr />
+
+
+    <div class="container-fluid hobbys" id="hobbys">
+        <h1>Мої захоплення</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hobbyBlock">
+                    <a class="searchUrl" href="https://google.com/search?q=Футбол Новини">
+                        <div class="container-fluid">
+                        <p>
+                            <i class="fas fa-futbol"></i>
+                        </p>
+                        <h2>Футбол</h2>
+                        <h4>
+                            <span>
+                                командний вид спорту,<br />
+                                який грається між двома командами <br />
+                                по одинадцять гравців зі сферичним
+                                м'ячем.
+                            </span>
+                        </h4>
+
+                    </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hobbyBlock">
+                    <a class="searchUrl" href="https://google.com/search?q=Фізика і Астрономія">
+                        <div class="container-fluid">
+                            <p>
+                                <i class="fas fa-atom"></i>
+                            </p>
+                            <h2>Фізика</h2>
+                            <h4>
+                                <span>
+                                    природнича наука, яка досліджує загальні
+                                    властивості матерії та явищ у ній, а також
+                                    виявляє загальні закони, які керують цими
+                                    явищами. Це наука про закономірності природи
+                                    в широкому сенсі цього слова.
+                                </span>
+                            </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hobbyBlock">
+                    <a class="searchUrl" href="https://google.com/search?q=.NET">
+                        <div class="container-fluid">
+                            <p>
+                                <i class="fas fa-laptop"></i>
+                            </p>
+                            <h2>Програмування</h2>
+                            <h4>
+                                <span>
+                                    процес проектування, написання, тестування,
+                                    зневадження і підтримки комп'ютерних програм
+                                </span>
+                            </h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br /><br /><br /><br />
+                      <hr />
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <h4>Усі права захищено <i class="fa fa-globe-europe"></i></h4>
+            </div>
+
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+                <div class="dropup pull-right">
+                    <a class="btn btn-success dropdown-toggle" data-toggle="dropdown">Навігація <span class="caret"></span></a>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="#mainSlider">Слайдер</a></li>
+                        <li><a href="#about">Про мене</a></li>
+                        <li><a href="#hobbys">Захоплення</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="/js/scroll-behavior.js"></script>
+    <script src="/js/DownloadResume.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+</body>
+</html>
